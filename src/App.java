@@ -1,8 +1,8 @@
-import boardgame.Board;
-import boardgame.Position;
+import chess.ChessMatch;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        Board board = new Board(8, 8);
+        ChessMatch chessmatch = new ChessMatch();
+        UI.printBoard(chessmatch.getPieces());
     }
 }
